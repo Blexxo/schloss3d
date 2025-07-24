@@ -1,0 +1,13 @@
+Node3D
+Timer
+StaticBody3D
+SliderJoint3D
+CollisionShape3D
+CharacterBody3D
+Area3D
+MeshInstance3D
+RigidBody3D
+Camera3D
+Generic6DOFJoint3D
+AnimationPlayer
+CollisionPolygon3D

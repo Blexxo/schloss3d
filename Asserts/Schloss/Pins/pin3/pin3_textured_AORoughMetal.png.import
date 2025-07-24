@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dkhn3mtwr13bn"
+path.s3tc="res://.godot/imported/pin3_textured_AORoughMetal.png-4423f67f7223678c38d4b1e4d28ee0cb.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "ebdd293ca5d8b2b5e9e3ec6eebf4ee13"
+}
+
+[deps]
+
+source_file="res://Asserts/Schloss/Pins/pin3/pin3_textured_AORoughMetal.png"
+dest_files=["res://.godot/imported/pin3_textured_AORoughMetal.png-4423f67f7223678c38d4b1e4d28ee0cb.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=8
+roughness/src_normal="res://Asserts/Schloss/Pins/pin3/pin3_textured_Normal.png"
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

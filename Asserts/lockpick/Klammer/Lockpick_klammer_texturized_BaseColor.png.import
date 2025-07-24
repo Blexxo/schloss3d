@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://ciy4smx5olg3j"
+path.s3tc="res://.godot/imported/Lockpick_klammer_texturized_BaseColor.png-93ddc59d4eb496d2b82984a281669904.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "8010d12cc44acb7690181bcd4d140cac"
+}
+
+[deps]
+
+source_file="res://Asserts/lockpick/Klammer/Lockpick_klammer_texturized_BaseColor.png"
+dest_files=["res://.godot/imported/Lockpick_klammer_texturized_BaseColor.png-93ddc59d4eb496d2b82984a281669904.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0
