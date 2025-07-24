@@ -72,7 +72,7 @@ size = Vector3(0.0346999, 0.0478516, 0.0178677)
 size = Vector3(1.10614, 0.048584, 0.0341949)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_dirg7"]
-size = Vector3(0.79184, 0.0498047, 0.0320435)
+size = Vector3(0.796265, 0.0498047, 0.0320435)
 
 [node name="Lockpick" type="CharacterBody3D"]
 collision_layer = 17
@@ -116,7 +116,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6058, 0, -0.0170874)
 shape = SubResource("BoxShape3D_v5ukt")
 
 [node name="CollisionShape3D4" type="CollisionShape3D" parent="Area3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.364311, 0, -0.143097)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.362098, 0, -0.143097)
 shape = SubResource("BoxShape3D_dirg7")
 
 [node name="Timer" type="Timer" parent="."]
