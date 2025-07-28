@@ -13,7 +13,7 @@ var real_velo = get_real_velocity()
 var colliding = false
 
 func _physics_process(delta: float) -> void:
-	print(velocity.y)
+	#print(velocity.y)
 	var mouse_pos = get_viewport().get_mouse_position()
 	var ray_origin = camera.project_ray_origin(mouse_pos)
 	var ray_direction = camera.project_ray_normal(mouse_pos)
@@ -38,13 +38,12 @@ func _physics_process(delta: float) -> void:
 		if Input.is_action_just_released("Left_Click"):
 			global_transform.origin = Vector3(2.25, -0.5, global_transform.origin.z)
 
-	if velocity.y < 0.1 and timer.is_stopped():
+	if velocity.y < 0.12 and velocity.y > -0.12 and timer.is_stopped():
 		timer.start(0.5)
 		
-	if velocity.y >= 0.05:
+	if velocity.y >= 0.12 or velocity.y <= -0.12:
 		timer.stop()
 	
-
 	'for i in range(get_slide_collision_count()):
 		var collision = get_slide_collision(i)
 		var collider = collision.get_collider()

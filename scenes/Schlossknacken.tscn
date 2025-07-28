@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://dw6maxgslrvq3"]
+[gd_scene load_steps=18 format=3 uid="uid://dw6maxgslrvq3"]
 
 [ext_resource type="Script" uid="uid://plad4q740u5l" path="res://scenes/schlossknacken.gd" id="1_up2ab"]
 [ext_resource type="PackedScene" uid="uid://bdqm5q7ly8w3q" path="res://scenes/schloss.tscn" id="1_vl2w3"]
@@ -15,7 +15,6 @@ sky_material = SubResource("ProceduralSkyMaterial_vl2w3")
 background_color = Color(0.374139, 0.374139, 0.374139, 1)
 sky = SubResource("Sky_8s2yc")
 tonemap_mode = 2
-glow_enabled = true
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_r2wch"]
 size = Vector3(2.69556, 0.420166, 1.76953)
@@ -50,19 +49,11 @@ size = Vector3(0.244507, 1.46924, 1)
 [sub_resource type="BoxShape3D" id="BoxShape3D_cvhha"]
 size = Vector3(0.254639, 1.46735, 1)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_3illg"]
-size = Vector3(1.06158, 0.293884, 1)
-
 [node name="Schloss Knacken" type="Node3D"]
 script = ExtResource("1_up2ab")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_up2ab")
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(0.941679, -0.00960803, -0.336374, 0.0102142, 0.999948, 3.24766e-05, 0.336356, -0.00346636, 0.941728, 0, 4.04181, 17.9217)
-light_energy = 0.515
-shadow_enabled = true
 
 [node name="Lockpick" parent="." instance=ExtResource("2_8s2yc")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 2.25, -0.5, 0)
@@ -127,14 +118,8 @@ shape = SubResource("BoxShape3D_cvhha")
 
 [node name="Pins" type="Node3D" parent="."]
 
-[node name="StaticBody3D2" type="StaticBody3D" parent="."]
-visible = false
-collision_layer = 64
-collision_mask = 0
-
-[node name="CollisionShape3D12" type="CollisionShape3D" parent="StaticBody3D2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.253316, -0.170432, 0)
-visible = false
-shape = SubResource("BoxShape3D_3illg")
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8.01762)
+light_energy = 0.39
 
 [editable path="Schloss"]
